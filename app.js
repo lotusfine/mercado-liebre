@@ -8,3 +8,5 @@ app.listen(3000, () => {
 app.get('/', function(req, res){
     res.send('servidor funcionando')
     });
+
+    //hola mundo uno dos tres cutro
