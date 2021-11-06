@@ -26,20 +26,26 @@ header{
   article {
     text-align: center;
   }
+  .precios{
+      background-color: white;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      margin:0px;
+  }
   .valor{
     font-size:18px;
+    background-color: white;
   }
   .descuento{
       font-size:16px;
-      color: #39b54a;;
+      color: #39b54a;
+      margin-left: 0px;
+      background-color: white;
   }
   .titulares{
     margin-top: -5px;
     font-size: 24 px;
     color: #666;
-  }
-  .producto{
-      font-size: ;
   }
   }
   footer{
@@ -67,6 +73,12 @@ header{
   .camion{
     color: #1259c3;
     font-size: 2em;
-    margin-bottom: 10px;
-    margin-left: 290px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    background-color: white;
+    text-align: right;
+    width: 360;
   }
+.f-producto{
+    margin
+}
