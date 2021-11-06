@@ -23,12 +23,6 @@ header{
     display: inline-block;
     margin-left: -25px;
   }
-h2 {
-    margin-top: -5px;
-    font-size: 24 px;
-    color: #666;
-    text-align: center;
-  }
   article {
     text-align: center;
   }
@@ -38,11 +32,14 @@ h2 {
   .descuento{
       font-size:16px;
   }
+  .titulares{
+    margin-top: -5px;
+    font-size: 24 px;
+    color: #666;
+  }
   .producto{
       font-size: ;
   }
-  .titulares{
-      font-size:24px;
   }
   footer{
       background-color: white;
@@ -66,3 +63,10 @@ h2 {
     margin-bottom: 10px;
     text-align: center;
   }
+  .camion{
+    color: #1259c3;
+    font-size: 2em;
+    margin-bottom: 10px;
+    margin-left: 290px;
+  }
+  
