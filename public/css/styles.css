@@ -1,6 +1,68 @@
-body{
-    font-family: roboto;
-}
+body {
+    font-family: "Roboto";
+    font-size: 12px;
+    background-color:#ebebeb;
+  }
 header{
-    background-color: #EAC926;
+    background-color: #eac926;
 }
+.cuotas{
+    text-align: center;
+}
+.hamburguesa{
+    text-align: center;
+}
+.burger-menu {
+    background-color: #1259c3;
+    padding: 7px;
+    border-radius: 7px;
+    font-size: 25px;
+    color: #fff;
+    width: 30px;
+    margin: 30px 0;
+    display: inline-block;
+    margin-left: -25px;
+  }
+h2 {
+    margin-top: -5px;
+    font-size: 24 px;
+    color: #666;
+    text-align: center;
+  }
+  article {
+    text-align: center;
+  }
+  .valor{
+    font-size:18px;
+  }
+  .descuento{
+      font-size:16px;
+  }
+  .producto{
+      font-size: ;
+  }
+  .titulares{
+      font-size:24px;
+  }
+  footer{
+      background-color: white;
+      text-align: center;
+  }
+  .tarjeta{
+    color: #1259c3;
+    font-size: 2em;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .regalo{
+    color: #1259c3;
+    font-size: 2em;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .escudo{
+    color: #1259c3;
+    font-size: 2em;
+    margin-bottom: 10px;
+    text-align: center;
+  }
