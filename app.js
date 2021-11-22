@@ -1,27 +1,36 @@
-const express = require("express");
-const app = express();
-const path = require ("path")
-const publicPatch = path.resolve(__dirname, "./public");
-app.use( express.static(publicPatch) );
+const express = require("express")
+const app = express()
+const path = require("path");
+const exp = require("constants");
+app.use(express.urlencoded({extended: true}))
 
-app.listen(3000, () => {
-    console.log('Servidor corriendo en el puerto 3000');
-});
+const publicpath = path.resolve(__dirname,'./public');
+app.use(express.static(publicpath))
 
-app.get("/home", (req, res) => {
-    res.sendFile(path.resolve(__dirname, "./views/home.html"));
+
+app.get("/",(req,res) => {
+    res.sendFile(path.resolve(__dirname, './views/home.html'))
+})
+
+app.get("/register",(req,res) => {
+    res.sendFile(path.resolve(__dirname, './views/register.html'))
+})
+
+app.get("/login",(req,res) => {
+    res.sendFile(path.resolve(__dirname, './views/login.html'))
+})
+
+/*app.post('/register', (req,res)=>{
+    console.log(req.body);
+    res.sendFile(__dirname + '/views/home.html');
+    res.redirect("/views/home.html")
+});*/
+
+
+
+app.listen(3000, ()=> {
+    console.log("Servidor corriendo en el puerto 3000");
 })
 
 
 
-
-
-
-/*app.get ('/', (req, res) => {
-    let htmlPath = path.resolve(__dirname, './views/');
-    res.sendFile (htmlPath);
-});*/
-
-/*app.get('/', function(req, res){
-    res.send('servidor funcionando')
-    });*/
