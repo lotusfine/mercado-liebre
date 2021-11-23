@@ -253,3 +253,14 @@ background-color: #0022AA;
 box-shadow: inset 300px 0 0 0 #066ff9;
 
 }
+
+.tarjeta{
+  display:flex
+}
+.regalo{
+  display:flex
+  justify-content: space-between;
+}
+.escudo{
+  display:flex
+}
