@@ -254,13 +254,39 @@ box-shadow: inset 300px 0 0 0 #066ff9;
 
 }
 
-.tarjeta{
-  display:flex
+footer i{
+  color:#085fbd;
+  font-size: 25px;
 }
-.regalo{
-  display:flex
-  justify-content: space-between;
+#Copyright{
+  text-align: left;
 }
-.escudo{
-  display:flex
+footer i:hover{
+  color: grey;
 }
+@media (min-width: 769px){
+  main section div.products article{
+      width: 22%;
+  }
+  footer{
+      display: flex;
+  }
+
+  div.shield{
+    text-align: center;
+  }
+
+  div.gift{
+    text-align: center;
+  }
+
+  div.card{
+    text-align: center;
+  }
+  .{
+    text-align: center;
+  }
+
+  footer div {
+    text-align: center;
+  }
